@@ -1,6 +1,6 @@
 # Project_ID17
 #### Link to Dataset: https://figshare.com/articles/InSciOut/903704
-Scientific misinformation detection in news media
+### Scientific misinformation detection in news media
 #### Step 1:Text Preprocessing: 
   Given dataset contains Press releases and News articles in docs format therefore all docs file were converted into txt format as NLTK     tools can be easily applied only txt format files. Then text cleaning was done in which first text is tokenized and all punctuation       marks and stop words were removed. Further stemming is done to stem ‘snowball’ stammers is used. This whole process is done for news       articles as well as for press releases.
   Further cleaned corpus were created for Press releases and news articles separately.
@@ -17,7 +17,7 @@ Scientific misinformation detection in news media
    Further for training supervised learning models we have used our 70% news articles as training dataset and rest 30% for test              dataset. Now many supervised learning Classifiers were implemented  including Logistic regression, SVM, XGBoost, Bagging                  Classifiers, Random Forest, KNN etc. We implemented our classifiers on two sets of features one set contains only news articles            vectors as features and another set which contain concatenated vectors of news article and corresponding press release.
         
 #### Step 5:Unsupervised Learning Approach :
-    We uses clustering algorithms like K-Means, Agglomerative, DBSCAN, HDBSCAN etc.Among them purity of K-Means and Agglomerative observed     to be best.
+  We uses clustering algorithms like K-Means, Agglomerative, DBSCAN, HDBSCAN etc.Among them purity of K-Means and Agglomerative observed to be best.
 
 
   
