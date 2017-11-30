@@ -1,4 +1,5 @@
 # Project_ID17
+# Link to Dataset: https://figshare.com/articles/InSciOut/903704
 Scientific misinformation detection in news media
 Step 1:Text Preprocessing: 
   Given dataset contains Press releases and News articles in docs format therefore all docs file were converted into txt format as NLTK     tools can be easily applied only txt format files. Then text cleaning was done in which first text is tokenized and all punctuation       marks and stop words were removed. Further stemming is done to stem ‘snowball’ stammers is used. This whole process is done for news       articles as well as for press releases.
