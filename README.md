@@ -1,4 +1,4 @@
-# Project_ID17
+# Scientific misinformation detection
 #### Link to Dataset: https://figshare.com/articles/InSciOut/903704
 ### Scientific misinformation detection in news media
 #### Step 1:Text Preprocessing: 
